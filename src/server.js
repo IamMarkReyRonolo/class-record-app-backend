@@ -21,6 +21,9 @@ database
 	});
 
 // ROUTES
+const studentAPI = require("./apis/studentAPI");
+
+app.use("/api/students", studentAPI);
 
 // ERROR - HANDLING
 app.use((req, res, next) => {
