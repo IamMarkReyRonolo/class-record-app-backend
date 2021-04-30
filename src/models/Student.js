@@ -21,7 +21,7 @@ const Student = database.define(
 			allowNull: false,
 		},
 	},
-	{ tableName: "Student" }
+	{ tableName: "students" }
 );
 
 module.exports = Student;
